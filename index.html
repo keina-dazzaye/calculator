@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>電卓</title>
+  <link rel="stylesheet" href="index.css">
+ 
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+  <h1>でんたく</h1>
+
+  <table>
+    <!-- 液晶画面 -->
+    
+    <tr>
+      <td colspan="3">
+        <input type="text" class="display" name="display" value="" disabled id="display">
+      <td><input type="button" value="C" class="button" onclick="clickClear()"></td>
+      </td>
+    </tr>
+
+    <!-- 上から一段目 -->
+    <tr>
+      <td><input type="button" value="7"  class="button" onclick="getCalc('7')"></td>
+      <td><input type="button" value="8" class="button" onclick="getCalc('8')"></td>
+      <td><input type="button" value="9" class="button" onclick="getCalc('9')"></td>
+      <td><input type="button" value="/" class="button" onclick="clickSlash('/')"></td>
+    </tr>
+
+    <!-- 二段目 -->
+    <tr>
+      <td><input type="button" value="4" class="button" onclick="getCalc('4')"></td>
+      <td><input type="button" value="5" class="button" onclick="getCalc('5')"></td>
+      <td><input type="button" value="6" class="button" onclick="getCalc('6')"></td>
+      <td><input type="button" value="*" class="button" onclick="clickAst('*')"></td>
+    </tr>
+
+    <!-- 三段目 -->
+    <tr>
+      <td><input type="button" value="1" class="button" onclick="getCalc('1')"></td>
+      <td><input type="button" value="2" class="button" onclick="getCalc('2')"></td>
+      <td><input type="button" value="3" class="button" onclick="getCalc('3')"></td>
+      <td><input type="button" value="-" class="button" onclick="clickMinus('-')"></td>
+
+    </tr>
+
+    <!-- 四段目 -->
+    <tr>
+      <td><input type="button" value="0" class="button" onclick="getCalc('0')"></td>
+      <td><input type="button" value="." class="button" onclick="getCalc('.')"></td>
+      <td><input type="button" value="=" class="button" onclick="clickEqual('=')"></td>
+      <td><input type="button" value="+" class="button" onclick="clickPlus('+')"></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

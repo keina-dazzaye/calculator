@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Nikukyu";
+  width: 240px;
+  height: 30px;
+  padding-top: 7px;
+  background-color: rgba(159, 234, 234, 0.776);
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: 5px solid #ffffff88;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+}
+
+table {
+  padding-top: 5px;
+  margin: 0 auto;
+  background-color: rgba(159, 234, 234, 0.776);
+  width: 240px;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.button {
+  width: 50px;
+  cursor: pointer;
+  height: 30px;
+  font-family: "Comic Sans MS";
+  border-radius: 100px;
+  background-color: #000000;
+  color: rgb(159, 234, 234);
+  border: 1px solid #ffffff88;
+}
